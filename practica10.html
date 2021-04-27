@@ -12,9 +12,24 @@
     Nombre: <input type="text"name="txtnom"><br><br>
     Apellido: <input type="text"name="txtape"><br><br>
     Elige un color: <input type="color"><br>
-    Número: <input type="number"><br><br>
+    Número: <input type="number"min="1" max="10"><br><br>
     Fecha y hora: <input type="datetime-local"><br><br>
-    
+    Correo:<input type="email"><br><br>
+    Rango: <input type="range"><br><br>
+    <fieldset>
+        <legend>Controles de opción</legend>
+        Empleo actual: <br>
+        <input type="radio"name="rdb"value="Time complete">Tiempo completo<br>
+        <input type="radio"name="rdb"value="Time parcial">Tiempo parcial<br>
+        <input type="radio"name="rdb"value="None">Ninguno<br>
+    </fieldset>
+    <fieldset>
+        <legend>Check</legend>
+        Hobbies<br>
+        <input type="checkbox">Fútbol<br>
+        <input type="checkbox">Natación<br>
+        <input type="checkbox">Salto Largo<br>
+    </fieldset>
 </form>
 </body>
 </html>
